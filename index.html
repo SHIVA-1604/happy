@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+
+    <div class="bg-white p-8 rounded shadow-md w-96">
+        <h1 class="text-2xl font-semibold mb-6">Login</h1>
+        
+        <!-- Form -->
+       
+            <!-- Email Input -->
+            <div class="mb-4">
+                <label class="block text-gray-600 text-sm font-medium">Phone Number</label>
+                <input type="text" id="num" name="Number" class="mt-1 p-2 w-full border rounded-md">
+            </div>
+
+            <!-- Password Input -->
+            <div class="mb-4">
+                <label  class="block text-gray-600 text-sm font-medium">DOB</label>
+                <input type="date" id="date" name="DOB" class="mt-1 p-2 w-full border rounded-md">
+            </div>
+
+            <p id="print" class="text-red"></p>
+
+            <!-- Submit Button -->
+            <button onclick="validate()"class="bg-blue-500 text-white p-2 rounded-md w-full">Login</button>
+       
+    </div>
+
+<script type="text/javascript" src="page.js"></script>
+</body>
+</html>
